@@ -1,0 +1,28 @@
+:root {
+    --grad: radial-gradient(var(--prim), var(--sec));
+    --mainFont: "Anton SC", sans-serif;
+    --prim: #005a9c;
+    --sec: #74a57f;
+    --tert: #eaeae3;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeae3;
+}
+
+.icon {
+    color: white;
+}
+
+#logo {
+    font-family: var(--mainFont);
+    font-size: calc(24px + (36 - 24) * ((100vw - 300px) / (1600 - 300)));
+}
+
+#section1 {
+    padding: 8px 0;
+    background-color: var(--prim);
+}
+
