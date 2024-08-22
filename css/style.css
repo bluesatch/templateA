@@ -9,11 +9,41 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #eaeae3;
+    background-color: var(--tert);
+}
+
+.banner-image {
+    height: 15vh;
 }
 
 .icon {
     color: white;
+}
+
+.item-image {
+    height: 400px;
+}
+
+.lead-items {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.shopping-section1-item {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#footerSection1 {
+    padding: 16px 0;
+    background-color: var(--prim);
+    background-image: var(--grad);
+}
+
+#leadSection {
+    padding: 20px 0;
 }
 
 #logo {
@@ -25,4 +55,6 @@ body {
     padding: 8px 0;
     background-color: var(--prim);
 }
+
+
 
