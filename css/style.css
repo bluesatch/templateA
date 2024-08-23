@@ -1,5 +1,5 @@
 :root {
-    --grad: radial-gradient(var(--prim), var(--sec));
+    --grad: radial-gradient(circle farthest-side, var(--sec), var(--prim));
     --mainFont: "Anton SC", sans-serif;
     --prim: #005a9c;
     --sec: #74a57f;
@@ -14,6 +14,19 @@ body {
 
 .banner-image {
     height: 15vh;
+}
+
+.dropdown-item {
+    color: var(--prim);
+}
+
+.footer-heading {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.colophon, .footer-heading, .footer-sec1-link, .list-link, .navbar-link, .site-link {
+    color: var(--tert);
 }
 
 .icon {
@@ -42,6 +55,16 @@ body {
     background-image: var(--grad);
 }
 
+#footerSection2 {
+    padding: 16px 0;
+    background-color: var(--prim);
+}
+
+#footerSection3 {
+    padding: 16px 0;
+    background-color: #00528e;;
+}
+
 #leadSection {
     padding: 20px 0;
 }
@@ -55,6 +78,12 @@ body {
     padding: 8px 0;
     background-color: var(--prim);
 }
+
+#section2 {
+    background-color: var(--sec);
+    background-image: var(--grad);
+}
+
 
 
 
